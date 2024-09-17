@@ -1,0 +1,94 @@
+/* Estilização geral do corpo da página */
+body {
+    font-family: "Times New Roman",Arial, sans-serif; /* Fonte padrão para o texto */
+    margin: 0; /* Remove a margem padrão do navegador */
+    padding: 0; /* Remove o preenchimento padrão do navegador */
+    line-height: 1.5; /* Altura da linha para melhorar a legibilidade */
+    color: #333; /* Cor do texto */
+    background-color: #f4f4f4; /* Cor de fundo da página */
+}
+
+/* Contêiner principal para centralizar o conteúdo */
+.container {
+    width: 80%; /* Largura do contêiner como porcentagem da largura da tela */
+    max-width: 1000px; /* Largura máxima para telas grandes */
+    margin: 0 auto; /* Centraliza horizontalmente o contêiner */
+    padding: 20px; /* Preenchimento interno do contêiner */
+    background: #fff; /* Cor de fundo do contêiner */
+    border-radius: 8px; /* Cantos arredondados do contêiner */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra sutil ao redor do contêiner */
+}
+
+/* Estilização da seção de informações pessoais */
+.info-perfil {
+    text-align: center; /* Centraliza o texto dentro da seção */
+}
+
+.info-perfil h1 {
+    margin-bottom: 10px; /* Espaço abaixo do título principal */
+}
+
+.info-perfil p {
+    margin: 5px 0; /* Margem uniforme em cima e embaixo dos parágrafos */
+}
+
+.info-perfil a {
+    color: #1a73e8; /* Cor dos links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+.info-perfil a:hover {
+    text-decoration: underline; /* Sublinha o link ao passar o mouse */
+}
+
+/* Estiliza as outras divs que estao dentro da div contêiner*/ 
+.container > div {
+    margin-bottom: 20px; /* Espaço abaixo de cada seção para separação visual */
+}
+
+/* Estilização dos títulos de seções */
+h2, h3 {
+    color: #333; /* Cor dos títulos */
+    border-bottom: 2px solid #333; /* Linha abaixo dos títulos para destaque */
+    padding-bottom: 5px; /* Espaço abaixo da linha */
+    margin-bottom: 10px; /* Espaço abaixo do título */
+}
+
+/* Estilização das listas */
+ul {
+    list-style-type: none; /* Remove os marcadores padrão das listas */
+    padding: 0; /* Remove o preenchimento interno das listas */
+}
+
+ul li {
+    margin-bottom: 10px; /* Espaço abaixo dos itens da lista */
+}
+
+ul ul {
+    margin-left: 20px; /* Recuo para sub-listas */
+}
+
+/* Estilização dos parágrafos */
+p {
+    margin: 10px 0; /* Espaço acima e abaixo dos parágrafos */
+}
+
+/* Estilo para textos em negrito */
+b {
+    font-weight: bold; /* Aplica negrito ao texto */
+}
+
+/* Estilização dos links */
+a {
+    color: #1a73e8; /* Cor dos links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+a:hover {
+    text-decoration: underline; /* Sublinha o link ao passar o mouse */
+}
+
+/* Estilo para textos em negrito usando a tag <span> */
+span {
+    font-weight: bold; /* Aplica negrito ao texto dentro da tag <span> */
+}
